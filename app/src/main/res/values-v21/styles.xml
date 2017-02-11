@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorPrimary">#c2185b</item>
+        <item name="android:colorPrimaryDark">#d81b60</item>
+        <item name="android:colorAccent">#e91e63</item>
+
+
+
+    </style>
+</resources>

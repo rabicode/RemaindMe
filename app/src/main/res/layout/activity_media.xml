@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_media"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.myAndroidApp.RemaindMyTask.MediaActivity">
+
+
+    <Button
+        android:text="Call"
+        android:layout_width="250dp"
+        android:layout_height="77dp"
+        android:id="@+id/btncall"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnmessage"
+        android:layout_alignStart="@+id/btnmessage"
+        android:drawableRight="@drawable/call"/>
+
+    <Button
+        android:text="Email"
+        android:layout_width="250dp"
+        android:layout_height="77dp"
+        android:id="@+id/btnemail"
+
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btnmessage"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/email"/>
+
+    <Button
+        android:text="facebook"
+        android:layout_width="250dp"
+        android:layout_height="77dp"
+        android:id="@+id/btnfb"
+        android:drawableRight="@drawable/facebook"
+        android:layout_below="@+id/btnemail"
+        android:layout_alignLeft="@+id/btnemail"
+        android:layout_alignStart="@+id/btnemail"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="Message"
+        android:layout_width="250dp"
+        android:layout_height="77dp"
+        android:id="@+id/btnmessage"
+        android:layout_below="@+id/btncall"
+        android:layout_alignLeft="@+id/btnemail"
+        android:layout_alignStart="@+id/btnemail"
+        android:layout_marginTop="25dp"
+        android:drawableRight="@drawable/sms"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="layout.BlankFragment"
+        android:id="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

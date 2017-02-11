@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RemaindMyTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_purpose">select purpose</string>
+    <string-array name="purpose_name">
+        <item>Birthday</item>
+        <item>Marriage Day</item>
+        <item>Email</item>
+        <item>Contact</item>
+        <item>Visit</item>
+        <item>Meeting</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_id">1787037364953134</string>
+</resources>
